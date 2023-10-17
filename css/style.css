@@ -131,9 +131,9 @@ a {
   filter: drop-shadow(0 0 1rem #0bbff950);
 }
 
-#radarr:hover {
-  -webkit-filter: drop-shadow(0 0 1rem #171b1f);
-  filter: drop-shadow(0 0 1rem #171b1f);
+#npm:hover {
+  -webkit-filter: drop-shadow(0 0 1rem #b01c4aa0);
+  filter: drop-shadow(0 0 1rem #b01c4aa0);
 }
 
 #pi-hole:hover {
