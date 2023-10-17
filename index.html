@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="header">
+      <h1 id="title">Dashboard</h1>
+    </div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <!-- APPS -->
+    <h2 class="cat-titles">Apps</h2>
+    <div class="apps">
+      <!-- PVE -->
+      <div class="image-holder">
+        <img id="pve" src="assets/images/pve.png" />
+        <h3>Proxmox</h3>
+        <p>Hypervisor</p>
+        <a href="https://pve.local:8006" target="_blank">
+          <button id="left-button">Local</button>
+        </a>
+        <a href="https://pve.omrimaymon.com/" target="_blank">
+          <button id="right-button">Remote</button>
+        </a>
+      </div>
+      <!-- Portainer -->
+      <div class="image-holder">
+        <img id="portainer" src="assets/images/portainer.png" />
+        <h3>Portainer</h3>
+        <p>Docker Manager</p>
+        <a href="http://docker.local:9000" target="_blank">
+          <button id="left-button">Local</button>
+        </a>
+        <a href="https://docker.omrimaymon.com/" target="_blank">
+          <button id="right-button">Remote</button>
+        </a>
+      </div>
+      <!-- NPM -->
+      <div class="image-holder">
+        <img id="npm" src="assets/images/npm.png" />
+        <h3>Nginx</h3>
+        <p>Proxy Manager</p>
+        <a href="http://proxy.local:81" target="_blank">
+          <button id="left-button">Local</button>
+        </a>
+        <a href="https://proxy.omrimaymon.com/" target="_blank">
+          <button id="right-button">Remote</button>
+        </a>
+      </div>
+      <!-- pi-hole -->
+      <div class="image-holder">
+        <img id="pi-hole" src="assets/images/pi-hole.png" />
+        <h3>Pi-Hole</h3>
+        <p>Dns Server</p>
+        <a href="http://dns.local/admin" target="_blank">
+          <button id="left-button">Local</button>
+        </a>
+        <a href="https://dns.omrimaymon.com/" target="_blank">
+          <button id="right-button">Remote</button>
+        </a>
+      </div>
+      <!-- file-browser -->
+      <div class="image-holder">
+        <img id="file-browser" src="assets/images/file-browser.png" />
+        <h3>Files</h3>
+        <p>File Browser</p>
+        <a href="http://files.local:8080" target="_blank">
+          <button id="left-button">Local</button>
+        </a>
+        <a href="https://files.omrimaymon.com/" target="_blank">
+          <button id="right-button">Remote</button>
+        </a>
+      </div>
+      <!-- Plex -->
+      <div class="image-holder">
+        <img id="pms" src="assets/images/pms.png" />
+        <h3>Plex</h3>
+        <p>Streaming Service</p>
+        <a href="http://plex.local:32400" target="_blank">
+          <button id="left-button">Local</button>
+        </a>
+        <a href="https://plex.omrimaymon.com/" target="_blank">
+          <button id="right-button">Remote</button>
+        </a>
+      </div>
+      <!-- Tautulli -->
+      <div class="image-holder">
+        <img id="tautulli" src="assets/images/tautulli.png" />
+        <h3>Tautulli</h3>
+        <p>Plex Manager</p>
+        <a href="http://tautulli.local:8181" target="_blank">
+          <button id="left-button">Local</button>
+        </a>
+        <a href="https://plex.omrimaymon.com/" target="_blank">
+          <button id="right-button">Remote</button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

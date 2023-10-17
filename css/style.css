@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap");
+
+html {
+  font-family: "Assistant", sans-serif;
+  color: white;
+  background-color: #111115;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #202530;
+  margin-top: 0;
+  padding: 0.5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+#title {
+  float: left;
+  font-size: 3rem;
+  margin: 0 0 0 1rem;
+  filter: drop-shadow(0 0 3rem #00000050);
+}
+
+img {
+  max-height: 10rem;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0.5rem;
+  -webkit-filter: drop-shadow(0 0 3rem #00000050);
+  filter: drop-shadow(0 0 3rem #00000050);
+  transition-duration: 1s;
+}
+
+img:hover {
+  max-height: 12rem;
+  transition-duration: 0.5s;
+}
+
+button {
+  font-family: "Assistant", sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0.25rem;
+  background-color: #00000000;
+  border-color: #ffffff50;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  transition-duration: 1s;
+  margin-right: -2px;
+  margin-left: -2px;
+}
+
+#left-button {
+  border-radius: 100vh 0 0 100vh;
+  border-width: 1px 0.5px 1px 1px;
+}
+
+#right-button {
+  border-radius: 0 100vh 100vh 0;
+  border-width: 1px 1px 1px 0.5px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  transition-duration: 0.5s;
+  -webkit-filter: drop-shadow(0 0 1rem #ffffff50);
+  filter: drop-shadow(0 0 1rem #ffffff50);
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.spacer {
+  height: 3rem;
+}
+
+.apps {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cat-titles {
+  text-align: center;
+  color: #ffffff70;
+}
+
+.image-holder {
+  text-align: center;
+  line-height: 0.5rem;
+}
+
+.image-holder h3 {
+  font-size: 1.5rem;
+}
+
+.image-holder p {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+/* APPS */
+
+#pve:hover {
+  -webkit-filter: drop-shadow(0 0 1rem #e67001);
+  filter: drop-shadow(0 0 1rem #e67001);
+}
+
+#portainer:hover {
+  -webkit-filter: drop-shadow(0 0 1rem #0bbff950);
+  filter: drop-shadow(0 0 1rem #0bbff950);
+}
+
+#radarr:hover {
+  -webkit-filter: drop-shadow(0 0 1rem #171b1f);
+  filter: drop-shadow(0 0 1rem #171b1f);
+}
+
+#pi-hole:hover {
+  -webkit-filter: drop-shadow(0 0 1rem #fe010150);
+  filter: drop-shadow(0 0 1rem #fe010150);
+}
+
+#file-browser:hover {
+  -webkit-filter: drop-shadow(0 0 1rem #4d66cc);
+  filter: drop-shadow(0 0 1rem #4d66cc);
+}
+
+#pms:hover {
+  -webkit-filter: drop-shadow(0 0 1rem #de8f12);
+  filter: drop-shadow(0 0 1rem #de8f12);
+}
+
+#tautulli:hover {
+  -webkit-filter: drop-shadow(0 0 1rem #1b1c1f);
+  filter: drop-shadow(0 0 1rem #1b1c1f);
+}
