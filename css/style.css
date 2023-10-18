@@ -126,6 +126,11 @@ a {
   filter: drop-shadow(0 0 1rem #e67001);
 }
 
+#openvpn:hover {
+  -webkit-filter: drop-shadow(0 0 1rem #ff7a2550);
+  filter: drop-shadow(0 0 1rem #ff7a2550);
+}
+
 #portainer:hover {
   -webkit-filter: drop-shadow(0 0 1rem #0bbff950);
   filter: drop-shadow(0 0 1rem #0bbff950);
